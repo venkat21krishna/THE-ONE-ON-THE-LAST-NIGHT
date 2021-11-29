@@ -11,7 +11,6 @@ int main() {
     while(T--){
         int n,k;
         cin>>n>>k;
-        //priority queue for min element
         priority_queue<int,vector<int>,greater<int>> queue;
         while(n>0){
             queue.push(n%10);
